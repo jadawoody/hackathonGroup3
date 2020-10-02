@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+*{
+    /* text-align: center; */
+    font-family: Raleway;
+}
+
+.homeHeader ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 20vw;
+}
+
+.homeHeader li, a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+.homeHeader :hover {
+    color: cadetblue;
+}
+#stanleyHomeImg{
+    height: 20vh;
+    width: auto;
+}
+.introText{
+    margin-right: 5%;
+    /* margin-left: 10vw; */
+}
+.exampleDiv{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    height: 25vh;
+}
+.exampleImg{
+    height: 15vh;
+    width: auto;
+}
+.exampleTxt{
+    padding-left: 5%;
+}
+#currently{
+    margin-top: 2%;
+}
+#txt{
+    margin-top: -3%;
+}
+#container1{
+    margin-left: 5%;
+}
+#container2{
+    margin-left: 5%;
+}
